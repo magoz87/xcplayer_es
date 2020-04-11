@@ -6,7 +6,7 @@ Open source web player compatible with XtreamCodes V2 API
 Use a clean Ubuntu 18.04 (not running any other service or script will fail) and run the following:
 
 ```sh
-curl -s https://raw.githubusercontent.com/tweakunwanted/OpenXC-Player/master/install.sh | sudo bash
+curl -s https://raw.githubusercontent.com/magoz87/xcplayer_es/master/install.sh | sudo bash
 ```
 
 After that edit the file `/var/www/html/libs/config.php`
