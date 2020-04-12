@@ -2,16 +2,16 @@
 
 
 // URL DNS
-define('IP','http://tv5full.xyz:25461'); 
+define('IP','http://nombreserver:puerto'); //link servidor y puerto
 
 //pink, aqua, orange or blue themes
 $template = 'blue'; 
 
 // WhatsApp Number
-define("WHATSAPP", '+56976130526'); //Numero WhatsApp
+define("WHATSAPP", ''); //Numero WhatsApp
 
 // Website 
-define("NOME_IPTV", 'Mastertvchile'); 
+define("NOME_IPTV", 'Nombre_IPTV'); 
 
 // MercadoPago Integration
 // Create payment links in your account and put them here
@@ -34,7 +34,7 @@ $valor4 = ""; // Valor Mensal
 
 define("ATIVAR_TESTE", '0');  // 1 = YES / 0 = NO
 define("HORAS", '3');  // Trial Duration in hours
-define("XTREAM_URL", 'http://tv5full.xyz:25461/'); //URL CMS do Xtream-Codes
+define("XTREAM_URL", ''); //URL CMS do Xtream-Codes
 define("XTREAM_USER", ''); //Usuário do Xtream-Codes
 define("XTREAM_PWD", ''); //Senha do Xtream-Codes
 define("XTREAM_PLANO", '1'); //Número do Plano do Xtream-Codes em caso de dúvidas contate o suporte.
@@ -46,9 +46,9 @@ define("SMTP_USER", '');
 define("SMTP_SENHA", '');
 define("SMTP_PORTA", '587');
 define("SMTP_SEGURANCA", 'tls');
-define("EMAIL_ASSUNTO", 'Bienvenido a IPTV - Mastertvchile');
+define("EMAIL_ASSUNTO", 'Bienvenido a IPTV - Nombre_IPTV');
 define("EMAIL_REVENDA", 'contato@revenda.com');
-define("NOME_REVENDA", 'Mastertvchile');
+define("NOME_REVENDA", 'Nombre_IPTV');
 
 // Adults categories
 define("AVISO_ADULTOS_CANAL", 'XXX: ADULTOS'); // Should be the same as XC
@@ -65,7 +65,7 @@ define("AVISO_ADULTOS_FILME", 'FILMES: ADULTOS'); // Should be the same as XC
 
 
 define("CORPO_EMAIL", "Hola %NOME%, su prueba ha sido creada exitosamente. <br> <br>
-    Puede iniciar sesión en nuestro jugador web utilizando los siguientes datos:<br>
+    Puede iniciar sesión en nuestro usuario web utilizando los siguientes datos:<br>
     <br>
     Usuario: <b>%USUARIO%</b> <br>
     Contraseña: <b>%SENHA%</b> <br><br><br>
@@ -74,6 +74,6 @@ define("CORPO_EMAIL", "Hola %NOME%, su prueba ha sido creada exitosamente. <br> 
     Disfruta tu prueba es válida hasta: %VENCIMENTO%<br><br><br>
     
     Gracias<br>
-    Mastertvchile.
+    Nombre_IPTV.
     
     ");
